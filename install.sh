@@ -46,7 +46,7 @@ detect_platform() {
         Linux)
             OS="Linux"
             ARCH="x86_64-gcc3"
-            PROFILES_DIR="$HOME/.zen/Profiles"
+            PROFILES_DIR="$HOME/.config/zen"
             ;;
         Darwin)
             OS="Darwin"
